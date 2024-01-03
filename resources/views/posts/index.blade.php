@@ -12,7 +12,7 @@
                     <div>
                         <h2 class="text-lg font-semibold">Data Posts</h2>
                     </div>
-                    <a href="{{ route('posts.create') }}" class="inline-block bg-green-500 text-white px-4 py-2 rounded">TAMBAH POST</a>
+                    <a href="{{ route('posts.create') }}" class="inline-block bg-gray-500 text-white px-2 py-2 rounded">TAMBAH POST</a>
                 </div>
                 <div class="mt-4 w-full overflow-x-auto">
                     <table class="mx-auto min-w-full bg-white border border-gray-300">
