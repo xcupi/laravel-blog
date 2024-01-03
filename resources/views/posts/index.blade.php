@@ -36,8 +36,8 @@
                                     <td class="py-2 px-4 border-b">{!! $post->content !!}</td>
                                     <td class="py-2 px-4 border-b">
                                         <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('posts.destroy', $post->id) }}" method="POST">
-                                            <a href="{{ route('posts.show', $post->id) }}" class="inline-block bg-gray-800 text-white px-2 py-1 rounded">SHOW</a>
-                                            <a href="{{ route('posts.edit', $post->id) }}" class="inline-block bg-blue-500 text-white px-2 py-1 rounded">EDIT</a>
+                                            <a href="{{ route('posts.show', $post->id) }}" class="inline-block bg-gray-500 text-white px-2 py-2 rounded">SHOW</a>
+                                            <a href="{{ route('posts.edit', $post->id) }}" class="inline-block bg-gray-500 text-white px-2 py-2 rounded">EDIT</a>
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="inline-block bg-red-500 text-white px-2 py-1 rounded">HAPUS</button>
